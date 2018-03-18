@@ -1,0 +1,3 @@
+[submodule "mods/intllib"]
+	path = mods/intllib
+	url = https://github.com/minetest-mods/intllib.git
