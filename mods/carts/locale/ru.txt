@@ -1,0 +1,10 @@
+# Template for translations of carts mod
+# last update: 2016/December/23
+
+#cart_entity.lua
+Cart (Sneak+Click to pick up) = тележка 
+
+#rails.lua
+Rail = рельсы
+Powered rail = разгонные рельсы
+Brake rail = тормозные рельсы
