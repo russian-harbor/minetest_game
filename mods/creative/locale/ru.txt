@@ -1,0 +1,9 @@
+# locale of creative mod
+#inventory.lua
+@1 takes @2 from creative inventory = @1 взять @2 из творческого инвентаря
+Search = Поиск
+Reset = Сброс
+All = Все
+Nodes = Блоки
+Tools = Инструменты
+Items = Изделия
