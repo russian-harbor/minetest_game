@@ -1,0 +1,16 @@
+#init.lua
+White dye = белый краситель
+Grey dye = серый краситель
+Dark grey dye = темно-серый краситель
+Black dye = черный краситель
+Violet dye = фиолетовый краситель
+Blue dye = синий краситель
+Cyan dye = бирюзовый краситель
+Dark green dye = темно-зелёный краситель
+Green dye = зелёный краситель
+Yellow dye = жёлтый краситель
+Brown dye = коричневый краситель
+Orange dye = оранжевый краситель
+Red dye = красный краситель
+Magenta dye = пурпурный краситель
+Pink dye = розовый краситель
