@@ -30,11 +30,11 @@ Flint = кремень
 #furnance.lua
 Furnace = печь
 Furnace is empty = печь пуста
-Furnance @1 Item: @2; Fuel: @3 = печь содержит @1 предмет: @2; топливо: @3 
-Empty = пусто
-Not cookable = ничего не готовиться
-inactive = неактивно
-active = активно
+Furnance @1 Item: @2; Fuel: @3 = печь @1 (предмет: @2; топливо: @3)
+Empty = пустo
+Not cookable = это не готовиться
+inactive = отключена
+active = готовит
 
 #nodes
 Stone = камень
@@ -45,7 +45,7 @@ Mossy Cobblestone = замшелый булыжник
 Desert Stone = пустынный камень
 Desert Cobblestone = пустынный булыжник
 Desert Stone Brick = пустынный каменный кирпич
-Desert Stone Block =  пустынный каменный блок
+Desert Stone Block = пустынный каменный блок
 Sandstone = песчаник
 Sandstone Brick = кирпич из песчаника
 Sandstone Block = блок из песчаника

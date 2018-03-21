@@ -30,7 +30,7 @@ Flint = Feuerstein
 #furnance.lua
 Furnace = Ofen
 Furnace is empty = Ofen ist leer
-Furnance @1 Item: @2; Fuel: @3 = Ofen @1 Gegenstand: @2; Brennstoff: @3
+Furnance @1 Item: @2; Fuel: @3 = Ofen @1 (Gegenstand: @2; Brennstoff: @3)
 Empty = Leer
 Not cookable = Nicht kochbar
 inactive = inaktiv
