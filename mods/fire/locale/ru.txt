@@ -1,0 +1,6 @@
+# Russian translation for default Mod
+
+
+#init.lua
+Permanent Flame = постоянный огонь
+Flint and Steel = огниво
