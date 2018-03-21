@@ -5,6 +5,16 @@ sfinv = {
 	enabled = true
 }
 
+-- Intllib
+local S
+if minetest.get_modpath("intllib") then
+	S = intllib.Getter()
+else
+	S = function(s) return s end
+end
+sfinv.intllib = S
+
+
 function sfinv.register_page(name, def)
 	assert(name, "Invalid sfinv page. Requires a name")
 	assert(def, "Invalid sfinv page. Requires a def[inition] table")
