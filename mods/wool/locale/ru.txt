@@ -1,0 +1,17 @@
+#init.lua
+White = белая
+Grey = серая
+Black = черная
+Red = красная
+Yellow = жёлтая
+Green = зелёная
+Cyan = бирюзовая
+Blue = синия
+Magenta = пурпурная
+Orange = оранжевая
+Violet = фиолетовая
+Brown = коричневая
+Pink = розовая
+Dark Grey = темно-серая
+Dark Green = темно-зелёная
+@1 Wool = @1 шерсть
