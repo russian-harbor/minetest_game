@@ -1,5 +1,5 @@
 #init.lua
-White Dandelion = 
+White dandelion = 
 Yellow Dandelion = 
 Blue Geranium = 
 Rose = 

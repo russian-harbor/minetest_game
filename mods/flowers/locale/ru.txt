@@ -1,5 +1,5 @@
 #init.lua
-White Dandelion = белый одуванчик
+White dandelion = ромашка
 Yellow Dandelion = жёлтый одуванчик
 Blue Geranium = синяя герань
 Rose = роза

@@ -4,7 +4,7 @@
 # Author: Xanthin
 
 #init.lua
-White Dandelion = Weißer Löwenzahn
+White dandelion = Weißer Löwenzahn
 Yellow Dandelion = Gelber Löwenzahn
 Blue Geranium = Blaue Geranie
 Rose = Rose
