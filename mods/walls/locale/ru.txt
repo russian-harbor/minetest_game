@@ -1,0 +1,7 @@
+# Russian translation for default Mod
+
+
+#init.lua
+Cobblestone Wall = стена из булыжника
+Mossy Cobblestone Wall = стена из мшистого булыжника
+Desert Cobblestone Wall = стена из пустынного булыжника
