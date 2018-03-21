@@ -1,6 +1,15 @@
 -- our API object
 doors = {}
 
+-- Intllib
+local S
+if minetest.get_modpath("intllib") then
+	S = intllib.Getter()
+else
+	S = function(s) return s end
+end
+doors.intllib = S
+
 -- private data
 local _doors = {}
 _doors.registered_doors = {}
@@ -73,7 +82,7 @@ end
 -- this hidden node is placed on top of the bottom, and prevents
 -- nodes from being placed in the top half of the door.
 minetest.register_node("doors:hidden", {
-	description = "Hidden Door Segment",
+	description = S("Hidden Door Segment"),
 	-- can't use airlike otherwise falling nodes will turn to entities
 	-- and will be forever stuck until door is removed.
 	drawtype = "nodebox",
@@ -398,7 +407,7 @@ function doors.register(name, def)
 			-- verify placer is owner of lockable door
 			if owner ~= pname then
 				minetest.record_protection_violation(pos, pname)
-				minetest.chat_send_player(pname, "You do not own this locked door.")
+				minetest.chat_send_player(pname, S("You do not own this locked door."))
 				return nil
 			end
 
@@ -445,7 +454,7 @@ end
 
 doors.register("door_wood", {
 		tiles = {{ name = "doors_door_wood.png", backface_culling = true }},
-		description = "Wooden Door",
+		description = S("Wooden Door"),
 		inventory_image = "doors_item_wood.png",
 		groups = {choppy = 2, oddly_breakable_by_hand = 2, flammable = 2},
 		recipe = {
@@ -457,7 +466,7 @@ doors.register("door_wood", {
 
 doors.register("door_steel", {
 		tiles = {{name = "doors_door_steel.png", backface_culling = true}},
-		description = "Steel Door",
+		description = S("Steel Door"),
 		inventory_image = "doors_item_steel.png",
 		protected = true,
 		groups = {cracky = 1, level = 2},
@@ -473,7 +482,7 @@ doors.register("door_steel", {
 
 doors.register("door_glass", {
 		tiles = {"doors_door_glass.png"},
-		description = "Glass Door",
+		description = S("Glass Door"),
 		inventory_image = "doors_item_glass.png",
 		groups = {cracky=3, oddly_breakable_by_hand=3},
 		sounds = default.node_sound_glass_defaults(),
@@ -488,7 +497,7 @@ doors.register("door_glass", {
 
 doors.register("door_obsidian_glass", {
 		tiles = {"doors_door_obsidian_glass.png"},
-		description = "Obsidian Glass Door",
+		description = S("Obsidian Glass Door"),
 		inventory_image = "doors_item_obsidian_glass.png",
 		groups = {cracky=3},
 		sounds = default.node_sound_glass_defaults(),
@@ -667,7 +676,7 @@ function doors.register_trapdoor(name, def)
 end
 
 doors.register_trapdoor("doors:trapdoor", {
-	description = "Trapdoor",
+	description = S("Trapdoor"),
 	inventory_image = "doors_trapdoor.png",
 	wield_image = "doors_trapdoor.png",
 	tile_front = "doors_trapdoor.png",
@@ -676,7 +685,7 @@ doors.register_trapdoor("doors:trapdoor", {
 })
 
 doors.register_trapdoor("doors:trapdoor_steel", {
-	description = "Steel Trapdoor",
+	description = S("Steel Trapdoor"),
 	inventory_image = "doors_trapdoor_steel.png",
 	wield_image = "doors_trapdoor_steel.png",
 	tile_front = "doors_trapdoor_steel.png",
@@ -773,35 +782,35 @@ function doors.register_fencegate(name, def)
 end
 
 doors.register_fencegate("doors:gate_wood", {
-	description = "Wooden Fence Gate",
+	description = S("Wooden Fence Gate"),
 	texture = "default_wood.png",
 	material = "default:wood",
 	groups = {choppy = 2, oddly_breakable_by_hand = 2, flammable = 2}
 })
 
 doors.register_fencegate("doors:gate_acacia_wood", {
-	description = "Acacia Fence Gate",
+	description = S("Acacia Fence Gate"),
 	texture = "default_acacia_wood.png",
 	material = "default:acacia_wood",
 	groups = {choppy = 2, oddly_breakable_by_hand = 2, flammable = 2}
 })
 
 doors.register_fencegate("doors:gate_junglewood", {
-	description = "Jungle Wood Fence Gate",
+	description = S("Jungle Wood Fence Gate"),
 	texture = "default_junglewood.png",
 	material = "default:junglewood",
 	groups = {choppy = 2, oddly_breakable_by_hand = 2, flammable = 2}
 })
 
 doors.register_fencegate("doors:gate_pine_wood", {
-	description = "Pine Fence Gate",
+	description = S("Pine Fence Gate"),
 	texture = "default_pine_wood.png",
 	material = "default:pine_wood",
 	groups = {choppy = 3, oddly_breakable_by_hand = 2, flammable = 3}
 })
 
 doors.register_fencegate("doors:gate_aspen_wood", {
-	description = "Aspen Fence Gate",
+	description = S("Aspen Fence Gate"),
 	texture = "default_aspen_wood.png",
 	material = "default:aspen_wood",
 	groups = {choppy = 3, oddly_breakable_by_hand = 2, flammable = 3}

@@ -1,0 +1,19 @@
+# Russian translation for default Mod
+
+
+#init.lua
+Hidden Door Segment = cкрытый сегмент двери
+Wooden Door = деревянная дверь
+Steel Door = стальная дверь
+Glass Door = стеклянная дверь
+Obsidian Glass Door = обсидиановая стеклянная дверь
+Trapdoor = люк
+Steel Trapdoor = стальной люк
+Owned by @1 = Владелец @1
+You do not own this locked door. = Вы не владелец этой двери
+You do not own this trapdoor. = Вы не владелец этой двери
+Wooden Fence Gate = деревянный ворота
+Acacia Wood Fence Gate = ворота из акации
+Jungle Wood Fence Gate = ворота из дерева джунглей
+Pine Wood Fence Gate = ворота из сосны
+Aspen Wood Fence Gate = ворота из осины
