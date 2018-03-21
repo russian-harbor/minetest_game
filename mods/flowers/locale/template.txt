@@ -1,0 +1,10 @@
+#init.lua
+White Dandelion = 
+Yellow Dandelion = 
+Blue Geranium = 
+Rose = 
+Orange Tulip = 
+Viola = 
+Red Mushroom = 
+Brown Mushroom = 
+Waterlily = 

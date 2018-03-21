@@ -7,6 +7,16 @@
 flowers = {}
 
 
+-- Intllib
+local S
+if minetest.get_modpath("intllib") then
+	S = intllib.Getter()
+else
+	S = function(s) return s end
+end
+flowers.intllib = S
+
+
 -- Map Generation
 
 dofile(minetest.get_modpath("flowers") .. "/mapgen.lua")
@@ -36,7 +46,7 @@ local function add_simple_flower(name, desc, box, f_groups)
 	f_groups.attached_node = 1
 
 	minetest.register_node("flowers:" .. name, {
-		description = desc,
+		description = S(desc),
 		drawtype = "plantlike",
 		waving = 1,
 		tiles = {"flowers_" .. name .. ".png"},
@@ -164,7 +174,7 @@ minetest.register_abm({
 --
 
 minetest.register_node("flowers:mushroom_red", {
-	description = "Red Mushroom",
+	description = S("Red Mushroom"),
 	tiles = {"flowers_mushroom_red.png"},
 	inventory_image = "flowers_mushroom_red.png",
 	wield_image = "flowers_mushroom_red.png",
@@ -183,7 +193,7 @@ minetest.register_node("flowers:mushroom_red", {
 })
 
 minetest.register_node("flowers:mushroom_brown", {
-	description = "Brown Mushroom",
+	description = S("Brown Mushroom"),
 	tiles = {"flowers_mushroom_brown.png"},
 	inventory_image = "flowers_mushroom_brown.png",
 	wield_image = "flowers_mushroom_brown.png",
@@ -254,7 +264,7 @@ minetest.register_alias("mushroom:red_natural", "flowers:mushroom_red")
 --
 
 minetest.register_node("flowers:waterlily", {
-	description = "Waterlily",
+	description = S("Waterlily"),
 	drawtype = "nodebox",
 	paramtype = "light",
 	paramtype2 = "facedir",
