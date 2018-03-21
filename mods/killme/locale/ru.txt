@@ -1,0 +1,6 @@
+# Template for translations of killme mod
+# last update: 2017/January/09
+
+Kill yourself to respawn = Убить себя для респауна
+No static_spawnpoint defined = Нет точки респауна
+You need to be online to be killed! = Вы должны быть в сети чтобы быть убитым
