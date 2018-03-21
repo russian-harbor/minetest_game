@@ -6,6 +6,16 @@ if enable_tnt == nil then
 	enable_tnt = minetest.is_singleplayer()
 end
 
+-- Intllib
+local S
+if minetest.get_modpath("intllib") then
+	S = intllib.Getter()
+else
+	S = function(s) return s end
+end
+tnt.intllib = S
+
+
 -- loss probabilities array (one in X will be lost)
 local loss_prob = {}
 
@@ -411,7 +421,7 @@ minetest.register_node("tnt:boom", {
 })
 
 minetest.register_node("tnt:gunpowder", {
-	description = "Gun Powder",
+	description = S("Gun Powder"),
 	drawtype = "raillike",
 	paramtype = "light",
 	is_ground_content = false,
@@ -640,6 +650,6 @@ end
 
 tnt.register_tnt({
 	name = "tnt:tnt",
-	description = "TNT",
+	description = S("TNT"),
 	radius = tnt_radius,
 })

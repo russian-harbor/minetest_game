@@ -1,0 +1,4 @@
+#init.lua
+TNT = взрывчатка
+Gun Powder = порох
+[TNT] Loaded! = [взрывчатка] загружена!
