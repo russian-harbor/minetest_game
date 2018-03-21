@@ -1,0 +1,58 @@
+﻿# German Translation for stairs Mod
+# Deutsche Übersetzung der stairs Mod
+# last update: 2016/July/23
+# Author: Xanthin
+
+#init.lua
+Wooden Stair = Holztreppe
+Wooden Slab = Holzplatte
+Jungle Wood Stair = Tropenholztreppe
+Jungle Wood Slab = Tropenholzplatte
+Pine Wood Stair = Kiefernholztreppe
+Pine Wood Slab = Kiefernholzplatte
+Acacia Wood Stair = Akazienholztreppe
+Acacia Wood Slab = Akazienholzplatte
+Aspen Wood Stair = Espenholztreppe
+Aspen Wood Slab = Espenholzplatte
+Stone Stair = Steintreppe
+Stone Slab = Steinplatte
+Cobblestone Stair = Kopfsteinpflastertreppe
+Cobblestone Slab = Kopfsteinpflasterplatte
+Mossy Cobblestone Stair = Bemooste Kopfsteinpflastertreppe
+Mossy Cobblestone Slab = Bemooste Kopfsteinpflasterplatte
+Stone Block Stair = Steinblocktreppe
+Stone Block Slab = Steinblockplatte
+Stone Brick Stair = Steinziegeltreppe
+Stone Brick Slab = Steinziegelplatte
+Desert Stone Stair = Wüstensteintreppe
+Desert Stone Slab = Wüstensteinplatte
+Desert Cobblestone Stair = Wüstenkopfsteinpflastertreppe
+Desert Cobblestone Slab = Wüstenkopfsteinpflasterplatte
+Desert Stone Brick Stair = Wüstensteinziegeltreppe
+Desert Stone Brick Slab = Wüstensteinziegelplatte
+Desert Stone Block Stair = Wüstensteinblocktreppe
+Desert Stone Block Slab = Wüstensteinblockplatte
+Sandstone Stair = Sandsteintreppe
+Sandstone Slab = Sandsteinplatte
+Sandstone Brick Stair = Sandsteinziegeltreppe
+Sandstone Brick Slab = Sandsteinziegelplatte
+Sandstone Block Stair = Sandsteinblocktreppe
+Sandstone Block Slab = Sandsteinblockplatte
+Obsidian Stair = Obsidiantreppe
+Obsidian Slab = Obsidianplatte
+Obsidian Brick Stair = Obsidianziegeltreppe
+Obsidian Brick Slab = Obsidianziegelplatte
+Obsidian Block Stair = Obsidianblocktreppe
+Obsidian Block Slab = Obsidianblockplatte
+Brick Stair = Ziegeltreppe
+Brick Slab = Ziegelplatte
+Straw Stair = Strohtreppe
+Straw Slab = Strohplatte
+Steel Block Stair = Stahlblocktreppe
+Steel Block Slab = Stahlblockplatte
+Copper Block Stair = Kupferblocktreppe
+Copper Block Slab = Kupferblockplatte
+Bronze Block Stair = Bronzeblocktreppe
+Bronze Block Slab = Bronzeblockplatte
+Gold Block Stair = Goldblocktreppe
+Gold Block Slab = Goldblockplatte

@@ -1,0 +1,56 @@
+# Russian translation for default Mod
+
+
+#init.lua
+Wooden Stair = лестница из дерева
+Wooden Slab = плита из дерева
+Jungle Wood Stair = лестница из дерева джунглей
+Jungle Wood Slab = плита из дерева джунглей
+Pine Wood Stair = лестница из сосны
+Pine Wood Slab = плита из сосны
+Acacia Wood Stair = лестница из акации 
+Acacia Wood Slab = плита из акации
+Aspen Wood Stair = лестница из осины
+Aspen Wood Slab = плита из осины
+Stone Stair = лестница из камня
+Stone Slab = плита из каменя
+Cobblestone Stair = лестница из булыжник
+Cobblestone Slab = плита из булыжника
+Mossy Cobblestone Stair =  лестница из мшистого булыжника
+Mossy Cobblestone Slab = плита из мшистого булыжника
+Stone Block Stair = лестница из каменного блока
+Stone Block Slab = плита из каменного блока
+Stone Brick Stair = лестница из каменного кирпича
+Stone Brick Slab = плита из каменного кирпича
+Desert Stone Stair = лестница из песчанного камня
+Desert Stone Slab = плита из песчанного камня
+Desert Cobblestone Stair = лестница из пустынного булыжника
+Desert Cobblestone Slab = плита из пустынного булыжника
+Desert Stone Brick Stair = лестница из пустынного каменного кирпича
+Desert Stone Brick Slab = плита из пустынного каменного кирпича
+Desert Stone Block Stair = лестница из пустынного каменного блока
+Desert Stone Block Slab = плита из пустынного каменного блока
+Sandstone Stair = лестница из песчанника
+Sandstone Slab = плита из песчанника
+Sandstone Brick Stair = лестница из кирпича песчаника
+Sandstone Brick Slab = плита из кирпича песчаника
+Sandstone Block Stair = лестница из блока песчаника
+Sandstone Block Slab = плита из блока песчаника
+Obsidian Stair = лестница из обсидиана
+Obsidian Slab = плита из обсидиана
+Obsidian Brick Stair = лестница из обсидианового кирпича
+Obsidian Brick Slab = плита из обсидианового кирпича
+Obsidian Block Stair = лестница из обсидианового блока
+Obsidian Block Slab = плита из обсидианового блока
+Brick Stair = лестница из кирпича
+Brick Slab = плита из кирпича
+Straw Stair = лестница из соломы
+Straw Slab = плита из соломы
+Steel Block Stair = лестница из стального блока
+Steel Block Slab = плита из стального блока
+Copper Block Stair = лестница из медного блока
+Copper Block Slab = плита из медного блока
+Bronze Block Stair = лестница из бронзового блока
+Bronze Block Slab = плита из бронзового блока
+Gold Block Stair = лестница из золотого блока
+Gold Block Slab = плита из золотого блока
