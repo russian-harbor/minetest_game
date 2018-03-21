@@ -1,0 +1,13 @@
+# Russian translation for default Mod
+
+
+#init.lua
+Could not load player homes file: @1 = Не удалось загрузить домашнюю точку игрока @1
+Unable to write to player homes file: @1 = Невозможно установить домашнюю точку игрока @1
+Can use /sethome and /home = Вы можете использовать /sethome и /home
+Teleport you to your home point = Телепортировать вас к вашему домашней точки
+Teleported to home! = Вы телепортированы домой!
+Set a home using /sethome = Чтобы установить дом, используйте /sethome
+Set your home point = Установить Вашу домашнюю точку
+Home set! = Домашняя точка установлена!
+Player not found! = Игрок не найден
