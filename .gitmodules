@@ -3,4 +3,4 @@
 	url = https://github.com/minetest-mods/intllib.git
 [submodule "mods/farming"]
 	path = mods/farming
-	url = https://github.com/codexp/farming.git
+	url = https://github.com/tenplus1/farming.git
