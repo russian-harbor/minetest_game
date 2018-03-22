@@ -9,4 +9,4 @@
 	url = https://github.com/minetest-mods/unified_inventory.git
 [submodule "mods/craftguide"]
 	path = mods/craftguide
-	url = https://github.com/minetest-mods/craftguide.git
+	url = https://github.com/codexp/craftguide.git
