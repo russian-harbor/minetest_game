@@ -4,3 +4,6 @@
 [submodule "mods/farming"]
 	path = mods/farming
 	url = https://github.com/tenplus1/farming.git
+[submodule "mods/unified_inventory"]
+	path = mods/unified_inventory
+	url = https://github.com/minetest-mods/unified_inventory.git
