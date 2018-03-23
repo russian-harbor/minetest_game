@@ -10,3 +10,48 @@
 [submodule "mods/craftguide"]
 	path = mods/craftguide
 	url = https://github.com/codexp/craftguide.git
+[submodule "mods/protector"]
+	path = mods/protector
+	url = https://github.com/tenplus1/protector.git
+[submodule "mods/mobs_animal"]
+	path = mods/mobs_animal
+	url = https://github.com/tenplus1/mobs_animal.git
+[submodule "mods/mobs_redo"]
+	path = mods/mobs_redo
+	url = https://github.com/tenplus1/mobs_redo.git
+[submodule "mods/WorldEdit"]
+	path = mods/WorldEdit
+	url = https://github.com/Uberi/Minetest-WorldEdit.git
+[submodule "mods/xban2"]
+	path = mods/xban2
+	url = https://github.com/minetest-mods/xban2.git
+[submodule "mods/areas"]
+	path = mods/areas
+	url = https://github.com/ShadowNinja/areas.git
+[submodule "mods/homedecor_mp"]
+	path = mods/homedecor_mp
+	url = https://github.com/minetest-mods/homedecor_modpack.git
+[submodule "mods/hud_hunger"]
+	path = mods/hud_hunger
+	url = https://github.com/tenplus1/hud_hunger
+[submodule "mods/3d_armor_mp"]
+	path = mods/3d_armor_mp
+	url = https://github.com/stujones11/minetest-3d_armor.git
+[submodule "mods/easyvend"]
+	path = mods/easyvend
+	url = http://repo.or.cz/minetest_easyvend.git
+[submodule "mods/moreblocks"]
+	path = mods/moreblocks
+	url = https://github.com/minetest-mods/moreblocks.git
+[submodule "mods/signs_lib"]
+	path = mods/signs_lib
+	url = https://github.com/minetest-mods/signs_lib.git
+[submodule "mods/spawn"]
+	path = mods/spawn
+	url = https://github.com/cheapie/spawn.git
+[submodule "mods/travelnet"]
+	path = mods/travelnet
+	url = https://github.com/Sokomine/travelnet.git
+[submodule "mods/unifieddyes"]
+	path = mods/unifieddyes
+	url = https://github.com/minetest-mods/unifieddyes.git
