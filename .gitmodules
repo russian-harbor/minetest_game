@@ -33,7 +33,7 @@
 	url = https://github.com/minetest-mods/homedecor_modpack.git
 [submodule "mods/hud_hunger"]
 	path = mods/hud_hunger
-	url = https://github.com/tenplus1/hud_hunger
+	url = https://github.com/codexp/hud_hunger
 [submodule "mods/3d_armor_mp"]
 	path = mods/3d_armor_mp
 	url = https://github.com/stujones11/minetest-3d_armor.git
