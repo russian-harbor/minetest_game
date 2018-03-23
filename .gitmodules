@@ -21,7 +21,7 @@
 	url = https://github.com/codexp/mobs_redo.git
 [submodule "mods/WorldEdit"]
 	path = mods/WorldEdit
-	url = https://github.com/Uberi/Minetest-WorldEdit.git
+	url = https://github.com/codexp/Minetest-WorldEdit.git
 [submodule "mods/xban2"]
 	path = mods/xban2
 	url = https://github.com/minetest-mods/xban2.git
