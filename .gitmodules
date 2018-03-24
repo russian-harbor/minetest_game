@@ -1,57 +1,57 @@
 [submodule "mods/intllib"]
 	path = mods/intllib
-	url = https://github.com/minetest-mods/intllib.git
+	url = git@github.com:minetest-mods/intllib.git
 [submodule "mods/farming"]
 	path = mods/farming
-	url = https://github.com/tenplus1/farming.git
+	url = git@github.com:tenplus1/farming.git
 [submodule "mods/unified_inventory"]
 	path = mods/unified_inventory
-	url = https://github.com/minetest-mods/unified_inventory.git
+	url = git@github.com:minetest-mods/unified_inventory.git
 [submodule "mods/craftguide"]
 	path = mods/craftguide
-	url = https://github.com/codexp/craftguide.git
+	url = git@github.com:codexp/craftguide.git
 [submodule "mods/protector"]
 	path = mods/protector
-	url = https://github.com/tenplus1/protector.git
+	url = git@github.com:tenplus1/protector.git
 [submodule "mods/mobs_animal"]
 	path = mods/mobs_animal
-	url = https://github.com/tenplus1/mobs_animal.git
+	url = git@github.com:tenplus1/mobs_animal.git
 [submodule "mods/mobs_redo"]
 	path = mods/mobs_redo
-	url = https://github.com/tenplus1/mobs_redo.git
+	url = git@github.com:tenplus1/mobs_redo.git
 [submodule "mods/WorldEdit"]
 	path = mods/WorldEdit
-	url = https://github.com/codexp/Minetest-WorldEdit.git
+	url = git@github.com:codexp/Minetest-WorldEdit.git
 [submodule "mods/xban2"]
 	path = mods/xban2
-	url = https://github.com/minetest-mods/xban2.git
+	url = git@github.com:minetest-mods/xban2.git
 [submodule "mods/areas"]
 	path = mods/areas
-	url = https://github.com/ShadowNinja/areas.git
+	url = git@github.com:ShadowNinja/areas.git
 [submodule "mods/homedecor_mp"]
 	path = mods/homedecor_mp
-	url = https://github.com/codexp/homedecor_modpack.git
+	url = git@github.com:codexp/homedecor_modpack.git
 [submodule "mods/hud_hunger"]
 	path = mods/hud_hunger
-	url = https://github.com/codexp/hud_hunger
+	url = git@github.com:codexp/hud_hunger
 [submodule "mods/3d_armor_mp"]
 	path = mods/3d_armor_mp
-	url = https://github.com/stujones11/minetest-3d_armor.git
+	url = git@github.com:stujones11/minetest-3d_armor.git
 [submodule "mods/easyvend"]
 	path = mods/easyvend
 	url = http://repo.or.cz/minetest_easyvend.git
 [submodule "mods/moreblocks"]
 	path = mods/moreblocks
-	url = https://github.com/minetest-mods/moreblocks.git
+	url = git@github.com:minetest-mods/moreblocks.git
 [submodule "mods/signs_lib"]
 	path = mods/signs_lib
-	url = https://github.com/codexp/signs_lib.git
+	url = git@github.com:codexp/signs_lib.git
 [submodule "mods/spawn"]
 	path = mods/spawn
-	url = https://github.com/cheapie/spawn.git
+	url = git@github.com:cheapie/spawn.git
 [submodule "mods/travelnet"]
 	path = mods/travelnet
-	url = https://github.com/Sokomine/travelnet.git
+	url = git@github.com:Sokomine/travelnet.git
 [submodule "mods/unifieddyes"]
 	path = mods/unifieddyes
-	url = https://github.com/minetest-mods/unifieddyes.git
+	url = git@github.com:minetest-mods/unifieddyes.git
