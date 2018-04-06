@@ -51,7 +51,7 @@
 	url = git@github.com:cheapie/spawn.git
 [submodule "mods/travelnet"]
 	path = mods/travelnet
-	url = git@github.com:Sokomine/travelnet.git
+	url = git@github.com:russian-harbor/travelnet.git
 [submodule "mods/unifieddyes"]
 	path = mods/unifieddyes
 	url = git@github.com:minetest-mods/unifieddyes.git
