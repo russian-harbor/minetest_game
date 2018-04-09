@@ -9,7 +9,7 @@
 	url = git@github.com:russian-harbor/unified_inventory.git
 [submodule "mods/craftguide"]
 	path = mods/craftguide
-	url = git@github.com:codexp/craftguide.git
+	url = git@github.com:minetest-mods/craftguide.git
 [submodule "mods/protector"]
 	path = mods/protector
 	url = git@github.com:tenplus1/protector.git
