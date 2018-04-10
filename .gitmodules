@@ -21,7 +21,7 @@
 	url = git@github.com:tenplus1/mobs_redo.git
 [submodule "mods/WorldEdit"]
 	path = mods/WorldEdit
-	url = git@github.com:codexp/Minetest-WorldEdit.git
+	url = git@github.com:Uberi/Minetest-WorldEdit.git
 [submodule "mods/xban2"]
 	path = mods/xban2
 	url = git@github.com:minetest-mods/xban2.git
