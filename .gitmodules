@@ -64,3 +64,6 @@
 [submodule "mods/mesecons_mp"]
 	path = mods/mesecons_mp
 	url = git@github.com:minetest-mods/mesecons.git
+[submodule "mods/digilines"]
+	path = mods/digilines
+	url = git@github.com:minetest-mods/digilines.git
