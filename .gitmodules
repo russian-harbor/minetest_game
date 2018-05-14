@@ -30,7 +30,7 @@
 	url = git@github.com:ShadowNinja/areas.git
 [submodule "mods/homedecor_mp"]
 	path = mods/homedecor_mp
-	url = git@github.com:codexp/homedecor_modpack.git
+	url = git@github.com:minetest-mods/homedecor_modpack.git
 [submodule "mods/hud_hunger"]
 	path = mods/hud_hunger
 	url = git@github.com:tenplus1/hud_hunger
