@@ -45,7 +45,7 @@
 	url = git@github.com:minetest-mods/moreblocks.git
 [submodule "mods/signs_lib"]
 	path = mods/signs_lib
-	url = git@github.com:codexp/signs_lib.git
+	url = git@github.com:minetest-mods/signs_lib.git
 [submodule "mods/spawn"]
 	path = mods/spawn
 	url = git@github.com:cheapie/spawn.git
