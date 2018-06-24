@@ -18,7 +18,7 @@
 	url = https://github.com/tenplus1/mobs_animal.git
 [submodule "mods/mobs_redo"]
 	path = mods/mobs_redo
-	url = https://github.com/tenplus1/mobs_redo.git
+	url = https://notabug.org/TenPlus1/mobs_redo.git
 [submodule "mods/WorldEdit"]
 	path = mods/WorldEdit
 	url = https://github.com/Uberi/Minetest-WorldEdit.git
@@ -30,10 +30,10 @@
 	url = https://github.com/ShadowNinja/areas.git
 [submodule "mods/homedecor_mp"]
 	path = mods/homedecor_mp
-	url = https://github.com/codexp/homedecor_modpack.git
+	url = https://github.com/minetest-mods/homedecor_modpack.git
 [submodule "mods/hud_hunger"]
 	path = mods/hud_hunger
-	url = https://github.com/codexp/hud_hunger
+	url = https://github.com/tenplus1/hud_hunger
 [submodule "mods/3d_armor_mp"]
 	path = mods/3d_armor_mp
 	url = https://github.com/stujones11/minetest-3d_armor.git
@@ -45,7 +45,7 @@
 	url = https://github.com/minetest-mods/moreblocks.git
 [submodule "mods/signs_lib"]
 	path = mods/signs_lib
-	url = https://github.com/codexp/signs_lib.git
+	url = https://github.com/minetest-mods/signs_lib.git
 [submodule "mods/spawn"]
 	path = mods/spawn
 	url = https://github.com/cheapie/spawn.git
@@ -58,3 +58,12 @@
 [submodule "mods/map"]
 	path = mods/map
 	url = https://github.com/russian-harbor/map.git
+[submodule "mods/advtrains_mp"]
+	path = mods/advtrains_mp
+	url = https://github.com/orwell96/advtrains.git
+[submodule "mods/mesecons_mp"]
+	path = mods/mesecons_mp
+	url = https://github.com/minetest-mods/mesecons.git
+[submodule "mods/digilines"]
+	path = mods/digilines
+	url = https://github.com/minetest-mods/digilines.git
