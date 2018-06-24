@@ -155,7 +155,8 @@ The doors mod allows modders to register custom doors and trapdoors.
 ### Fence gate definition
 
 	description = "Wooden Fence Gate",
-	texture = "default_wood.png",
+	texture = "default_wood.png", -- `backface_culling` will automatically be
+	                              -- set to `true` if not specified.
 	material = "default:wood",
 	groups = {choppy = 2, oddly_breakable_by_hand = 2, flammable = 2},
 	sounds = default.node_sound_wood_defaults(), -- optional
@@ -303,12 +304,13 @@ TNT API
   * `bottom` Bottom tile. By default the name of the tnt with a suffix of `_bottom.png`.
   * `burning` Top tile when lit. By default the name of the tnt with a suffix of `_top_burning_animated.png".
 
-`tnt.boom(position, definition)`
+`tnt.boom(position[, definition])`
 
 ^ Create an explosion.
 
 * `position` The center of explosion.
-* `definition` The TNT definion as passed to `tnt.register`
+* `definition` The TNT definion as passed to `tnt.register` with the following addition:
+ * `explode_center` false by default which removes TNT node on blast, when true will explode center node.
 
 `tnt.burn(position, [nodename])`
 
