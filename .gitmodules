@@ -18,7 +18,7 @@
 	url = git@github.com:tenplus1/mobs_animal.git
 [submodule "mods/mobs_redo"]
 	path = mods/mobs_redo
-	url = git@github.com:tenplus1/mobs_redo.git
+	url = https://notabug.org/TenPlus1/mobs_redo.git
 [submodule "mods/WorldEdit"]
 	path = mods/WorldEdit
 	url = git@github.com:Uberi/Minetest-WorldEdit.git
