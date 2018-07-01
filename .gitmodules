@@ -6,7 +6,7 @@
 	url = git@github.com:tenplus1/farming.git
 [submodule "mods/unified_inventory"]
 	path = mods/unified_inventory
-	url = git@github.com:russian-harbor/unified_inventory.git
+	url = git@gitlab.com:VanessaE/unified_inventory.git
 [submodule "mods/craftguide"]
 	path = mods/craftguide
 	url = git@github.com:minetest-mods/craftguide.git
