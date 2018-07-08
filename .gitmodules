@@ -12,7 +12,7 @@
 	url = https://github.com/minetest-mods/craftguide.git
 [submodule "mods/protector"]
 	path = mods/protector
-	url = https://github.com/tenplus1/protector.git
+	url = https://notabug.org/TenPlus1/protector.git
 [submodule "mods/mobs_animal"]
 	path = mods/mobs_animal
 	url = https://github.com/tenplus1/mobs_animal.git
@@ -33,7 +33,7 @@
 	url = https://gitlab.com/VanessaE/homedecor_modpack.git
 [submodule "mods/hud_hunger"]
 	path = mods/hud_hunger
-	url = https://github.com/tenplus1/hud_hunger
+	url = https://notabug.org/TenPlus1/hud_hunger.git
 [submodule "mods/3d_armor_mp"]
 	path = mods/3d_armor_mp
 	url = https://github.com/stujones11/minetest-3d_armor.git
