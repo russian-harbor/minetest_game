@@ -60,7 +60,7 @@
 	url = git@github.com:russian-harbor/map.git
 [submodule "mods/advtrains_mp"]
 	path = mods/advtrains_mp
-	url = git@github.com:codexp/advtrains.git
+	url = https://git.bananach.space/advtrains.git
 [submodule "mods/mesecons_mp"]
 	path = mods/mesecons_mp
 	url = git@github.com:minetest-mods/mesecons.git
