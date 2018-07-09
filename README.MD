@@ -4,7 +4,7 @@
 Русскоязычный сабгейм майнтеста Русская Гавань.
 Сборка различных модов и перевод на русский язык.
 
-Игра основана на игре `minetest_game` находящаяся тут:
+Сборка основана на игре `minetest_game` v0.4.17 находящаяся тут:
 https://github.com/minetest/minetest_game
 
 ## Install - Установка
@@ -54,7 +54,7 @@ https://github.com/minetest/minetest_game
 
 	https://github.com/minetest/minetest/
 
-Эта игра совместима с версией движка `v0.4.16`
+Эта игра совместима с версией движка `v0.4.17`
 
 ## Licensing - Лицензия
 
