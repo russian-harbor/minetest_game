@@ -18,5 +18,6 @@
 .settings/
 .buildpath
 .metadata
-# Idea IDE
-.idea/*
+# IDE
+.idea/
+.vscode/
