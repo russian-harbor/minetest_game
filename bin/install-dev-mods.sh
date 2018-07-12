@@ -8,8 +8,12 @@ if [[ ! -f .git/HEAD ]]; then
 fi
 
 if [[ ! -f .git/HEAD ]] || [[ "$(< .git/HEAD)" != "$REFHEAD" ]]; then
-    echo "error: you have to be on 'develop' branch to run this install script"
-    exit 2
+    echo "WARNING: you are not in the 'develop' branch"
+    read -p "Are you sure you want to install development mods? (Y/N)" -n 1 -r
+    echo    # (optional) move to a new line
+    if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+        exit 2
+    fi
 fi
 
 if [ ! -d "./mods/smartfs" ]; then
