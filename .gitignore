@@ -18,5 +18,9 @@
 .settings/
 .buildpath
 .metadata
-# Idea IDE
-.idea/*
+# IDE
+.idea/
+.vscode/
+# development mods
+mods/qa_block
+mods/smartfs
