@@ -21,3 +21,6 @@
 # IDE
 .idea/
 .vscode/
+# development mods
+mods/qa_block
+mods/smartfs
