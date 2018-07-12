@@ -1,9 +1,19 @@
-local MP = minetest.get_modpath(minetest.get_current_modname())
 
 kluver = {}
-kluver.modpath = MP
+kluver.modname = minetest.get_current_modname()
+kluver.modpath = minetest.get_modpath(kluver.modname)
+kluver.debug = minetest.settings:get_bool('kluver:debug')
+kluver.mprint = function (msg)
+    print("[" .. kluver.modname .. "] " .. msg)
+end
+
+local MP = kluver.modpath
+
+print("[MOD] Модификация Клювера загружена")
 
 -- load aliases for old map
 dofile(MP .. "/aliases.lua")
 
-print("[MOD] Модификация Клювера загружена")
+if (kluver.debug) then
+    dofile(MP .. "/debug.lua")
+end
