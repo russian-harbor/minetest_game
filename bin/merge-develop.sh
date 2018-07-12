@@ -15,10 +15,10 @@ fi
 git merge --no-commit --no-ff origin/develop
 
 # revert merge updates from develop
-if [[ -f bin/install-dev-mods.sh ]]; then
-    git reset -- bin/install-dev-mods.sh
-    rm bin/install-dev-mods.sh
-fi
+#if [[ -f bin/install-dev-mods.sh ]]; then
+#    git reset -- bin/install-dev-mods.sh
+#    rm bin/install-dev-mods.sh
+#fi
 
 ./bin/submodules-git-to-http.py
 git add .gitmodules
