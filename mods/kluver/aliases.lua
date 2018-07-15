@@ -7,6 +7,7 @@ end
 -- add aliases for old map blocks
 register_moreblocks_alias("stairs", "stone")
 register_moreblocks_alias("stairs", "brick")
+register_moreblocks_alias("stairs", "junglewood")
 register_moreblocks_alias("stairs", "sandstone")
 register_moreblocks_alias("stairs", "sandstone_brick")
 register_moreblocks_alias("stairs", "silver_sandstone")
