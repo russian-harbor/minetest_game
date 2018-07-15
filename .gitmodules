@@ -42,7 +42,7 @@
 	url = http://repo.or.cz/minetest_easyvend.git
 [submodule "mods/moreblocks"]
 	path = mods/moreblocks
-	url = git@github.com:minetest-mods/moreblocks.git
+	url = git@github.com:codexp/moreblocks.git
 [submodule "mods/signs_lib"]
 	path = mods/signs_lib
 	url = git@github.com:minetest-mods/signs_lib.git
