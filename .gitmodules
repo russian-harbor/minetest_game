@@ -15,7 +15,7 @@
 	url = https://notabug.org/TenPlus1/protector.git
 [submodule "mods/mobs_animal"]
 	path = mods/mobs_animal
-	url = git@github.com:tenplus1/mobs_animal.git
+	url = https://notabug.org/TenPlus1/mobs_animal.git
 [submodule "mods/mobs_redo"]
 	path = mods/mobs_redo
 	url = https://notabug.org/TenPlus1/mobs_redo.git
