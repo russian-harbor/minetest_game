@@ -27,7 +27,9 @@ local convert_blocks = {
 	"stonebrick",
 	"straw",
 	"tinblock",
-	"wood"
+	"wood",
+	"silver_sandstone_brick"
+
 }
 
 
